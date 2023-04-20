@@ -9,6 +9,7 @@
 # General
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
 :root {
   --grey: rgba(75, 75, 75, 0.8);
   --gold: #E0C26C;
@@ -20,6 +21,7 @@
   --hero2: url("../img/hero-bg2.png");
 
 }
+
 body {
   font-family: "Roboto";
   background-color: #e9e8e6;
@@ -36,9 +38,10 @@ a:hover {
   text-decoration: none;
 }
 
-h1{
+h1 {
   font-family: 'Major Mono Display', monospace;
 }
+
 h2,
 h3,
 h4,
@@ -183,8 +186,8 @@ h6 {
   padding-right: 15px;
 }
 
-.bi{
-  margin-right: 15px; 
+.bi {
+  margin-right: 15px;
 }
 
 .header-social-links a {
@@ -199,6 +202,7 @@ h6 {
 .header-social-links a:hover {
   color: var(--gold-hover);
 }
+
 .btn-contact {
   all: unset;
   outline: none;
@@ -212,17 +216,20 @@ h6 {
   transition: 0.5s;
   color: #fff;
   background: var(--gold);
-  
+
 }
+
 .btn-contact:hover {
   background: var(--gold-hover);
 }
-.btn-contact a{
+
+.btn-contact a {
   color: var(--grey);
   font-family: "Roboto";
   font-weight: 300;
   font-size: 1rem;
   letter-spacing: 1px;
+  padding: 12px 12px;
 }
 
 /*--------------------------------------------------------------
@@ -480,7 +487,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: var(--hero1) top right;
+  background-image: url(../img/hero-bg.png);
+  background-position: top right;
   background-size: cover;
 }
 
@@ -500,7 +508,7 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color:var(--grey);
+  color: var(--grey);
 }
 
 #hero h2 {
@@ -524,7 +532,7 @@ h6 {
 }
 
 #hero .btn-about:hover {
-  background:var(--blue-hover);
+  background: var(--blue-hover);
 }
 
 @media (min-width: 1024px) {
@@ -570,7 +578,7 @@ section {
   text-align: center;
 }
 
-.section-title h2{
+.section-title h2 {
   font-size: 32px;
   font-weight: bold;
   position: relative;
@@ -683,9 +691,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio h5{
+.portfolio h5 {
   margin: 3% 0;
 }
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
